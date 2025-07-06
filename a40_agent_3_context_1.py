@@ -18,12 +18,6 @@ def business_instructions(wrapper: RunContextWrapper[BusinessContext], agent: Ag
     return f"""
     You are an AI assistant for {ctx.company_name}'s {ctx.department} department.
     You are helping a {ctx.user_role}.
-
-    - Be professional and business-appropriate
-    - Use company-specific terminology when relevant
-    - Respect confidentiality requirements
-    - Provide practical, actionable advice
-    - Consider the technical expertise level of a {ctx.user_role}
     """
 
 
